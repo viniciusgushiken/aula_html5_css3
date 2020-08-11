@@ -1,0 +1,115 @@
+<!-- esse comando mostra para o navegador que é um documento html5 --> 
+<!DOCTYPE html>
+
+<!-- tudo que fica entre os simbolos de menor e maior, são tags --> 
+<!-- você pode especificar a lingua que esta sendo utilizada com lang= --> 
+<html lang="pt-br">
+
+<!-- tag head é onde ficam os metadados    
+charset é um metadado que contem as acentuações da escrita brasileira, acentos etc -->
+    <HEAD>
+        <meta charset="utf-8">
+        <title> Minha página do Vini</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </HEAD>
+
+<!-- a tag body define o "corpo" da pagina-->
+    <body>
+<!-- tag para Menu é o nav, a tag ul é para criar uma lista tag li-->
+        <nav>
+            <p> Minha página</p>
+            <ul><!-- href= o # indica um id-->
+                <li>
+                    <a href="#servicos"> Serviços </a>
+                </li>
+                
+                <li>
+                    <a href="#clientes"> Clientes </a>
+                </li>
+                
+                <li>
+                    <a href="#parceiros"> Parceiros </a>
+                </li>
+                
+                <li>
+                    <a href="#time"> Time </a>
+                </li>
+
+                <li>
+                    <a href="#contato"> Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- a tag header define o cabeçalho da pagina, a tag h1 defini o tamanho da letra-->
+        <header>
+            <h1> Olá Mundo </h1>
+            <p> Esse é meu primeiro site </p>
+            <p>Texto</p>
+        </header>
+        
+        <!-- Criar uma sessão dentro da página -->
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <p>
+                Oferecemos os melhores serviços
+            </p>
+            <!-- elemento div cria uma divisão, melhor organização-->
+            <div>
+                <img src="img/site.jpg" class="img_padrao">                    
+            </div>
+            <div>
+                <img src="img/app.jpg" class="img_padrao">
+            </div>
+            
+        </section>
+
+        <section id='clientes'>
+            <h2>Clientes</h2>
+            <p>Nossos clientes ficaram muito satisfeitos com nossos serviços</p>
+            <div>
+                <img src="img/clients.jpg" class="img_padrao">
+            </div>
+
+        </section>
+
+        <section id='parceiros'>
+            <h2>Parceiros</h2>
+            <p>Nossos ajudam a entregar as melhores soluções para nossos clientes</p>
+            <div>
+                <a href="https://web.digitalinnovation.one/course/programando-interfaces-com-html5-e-css3/learning/a3cbe700-6d99-4134-b1eb-e01327065ea5" target="_blank">
+                    <img src="img/parceiros.jpg" class="img_padrao">
+                </a>
+            </div>
+
+        </section>
+
+        <section id='time'>
+            <h2>Time</h2>
+            <p>Nosso Time responsavel pela empresa!</p>
+            <div>
+                <img src="img/time.jpg" class="img_padrao">
+            </div>
+
+        </section>
+
+        <section id='contato'>
+            <h2>Contato</h2>
+            <p>Nosso Contato!</p>
+            <div>
+                <img src="img/contato.jpg" width="400px">
+                <p><a href="mailto:">contatoempresa.com</a></p>
+                <p><a href="tel:99999999">(99) 99999999</a></p>
+            </div>
+
+        </section>        
+       
+        <!-- a tag footer define o rodape da pagina-->
+        <footer>
+            <p>Desenvolvido por Vini</p>
+        </footer>
+
+
+    </body>
+
+</html>

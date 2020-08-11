@@ -1,0 +1,34 @@
+body {
+    background: rgb(0, 225, 255);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+header {
+    margin-top: 60px;
+}
+
+h1 {
+    color: rgb(17, 0, 255);
+    font-family: cursive;
+}
+
+h2 {
+    color: rgb(17, 0, 255);
+    font-family: cursive;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+
+.img_padrao {
+    margin-bottom: 20px;
+    width: 400px;
+}
